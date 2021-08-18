@@ -1,0 +1,567 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+  font: 100% sans-serif;
+  color: black;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+div#top
+{
+  height: 220px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 300px;
+}
+div.logo
+{
+  padding-top: 50px;
+  text-align: center;
+  height: 80px;
+}
+div.logo img
+{
+  height: 75px;
+}
+div#top div.menu
+{
+  background-color: white;
+  height: 35px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+div.menu button
+{
+  width: 110px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  position: relative;
+  font-size: 1.2em;
+  color: black;
+}
+div.menu button.a_button
+{
+  width: 60px;
+  text-align: center;
+  border: none;
+}
+
+div#top div.menu button:before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15px;
+  height: 0;
+  width: 100%;
+  background-color: #d5ac00;
+  -webkit-transition: height .3s ease-in-out;
+  transition: height .3s ease-in-out;
+}
+div#top div.menu button:hover:before
+{
+  height: 3px;
+}
+
+div#top div.menu button:after
+{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -15px;
+  height: 0;
+  width: 100%;
+  background-color: #d5ac00;
+  -webkit-transition: height .3s ease-in-out;
+  transition: height .3s ease-in-out;
+}
+div#top div.menu button.a_button:before
+{
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  height: 0;
+  width: 100%;
+  background-color: #d5ac00;
+  -webkit-transition: height .3s ease-in-out;
+  transition: height .3s ease-in-out;
+}
+div#top div.menu button.a_button:hover:before
+{
+  height: 3px;
+}
+div#top div.menu button.a_button:after
+{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  height: 0;
+  width: 100%;
+  background-color: #d5ac00;
+  -webkit-transition: height .3s ease-in-out;
+  transition: height .3s ease-in-out;
+}
+div#top div.menu button:hover:after
+{
+  height: 3px;
+}
+div.text
+{
+  height: 600px;
+  background-image: url("img/earth.jpg");
+  background-attachment: fixed;
+  text-align: center;
+}
+
+div.text span
+{
+  color: white;
+  font-size: 4em;
+  display: block;
+  font-weight: bold;
+  padding-top: 200px;
+}
+div.text2
+{
+  height: 600px;
+  background-image: url("img/hotel3.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+div.text2 span
+{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  padding-top: 200px;
+}
+div.text3
+{
+  height: 600px;
+  background-image: url("img/man.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+div.text3 span
+{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  padding-top: 100px;
+}
+div.text3 p
+{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+div.text4
+{
+  height: 600px;
+  background-image: url("img/plane.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+div.text4 span
+{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  padding-top: 150px;
+}
+div.text4 p
+{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+div.text5
+{
+  height: 600px;
+  background-image: url("img/earth2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+div.text5 span
+{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  padding-top: 180px;
+}
+div.text5 p
+{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+div.text6
+{
+  height: 600px;
+  background-image: url("img/cars.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+div.text6 span
+{
+  color: white;
+  font-size: 4em;
+  font-weight: bold;
+  display: block;
+  padding-top: 180px;
+}
+div.text6 p
+{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+
+div.cont
+{
+  height: 600px;
+  background-image: url("img/letter.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+div.cont p
+{
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  display: block;
+  padding-top: 100px;
+  font-size: 4em;
+  font-weight: bold;
+}
+div.threeElements
+{
+ 
+  width: 1100px;
+  margin: auto;
+  margin-top: 80px;
+}
+div.threeElements div
+{
+  float: left;
+  height: 250px;
+  width: 30%;
+  margin-left: 2%;
+  background-color: white;
+}
+
+
+div.discover
+{
+  height: 600px;
+  background-color: white;
+  background-attachment: fixed;
+  text-align: center;
+}
+div.discover div
+{
+  padding-top: 175px;
+  height: 300px;
+}
+div.discover2 div
+{
+  padding-top: 110px;
+}
+div.discover span
+{
+  font-size: 3.5em;
+}
+div.discover p
+{
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+}
+div.three_items
+{
+  height: 600px;
+}
+div.three_items div.left, div.three_items div.center, div.three_items div.right
+{
+  float: left;
+  width: 28%;
+  height: 540px;
+  margin-top: 25px;
+  background-color: white;
+  position: relative;
+  overflow:hidden;
+  -webkit-box-shadow: 1px 2px 8px 5px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 1px 2px 8px 5px rgba(34, 60, 80, 0.2);
+  box-shadow: 1px 2px 8px 5px rgba(34, 60, 80, 0.2);
+}
+div.three_items div.left
+{
+  margin-left: 6.5%;
+  background-image: url(img/left.PNG);
+}
+
+div.three_items div.hover_left
+{
+  content: "";
+  position: absolute;
+  height: 540px;
+  width: 100%;
+  left: 100%;
+  background-color: white;
+  transition: left .5s ease-in-out;
+}
+div.three_items div.left:hover div.hover_left
+{
+  left:0px;
+}
+div.three_items div.center
+{
+  margin-left: 1.5%;
+  background-image: url(img/center.PNG);
+}
+div.three_items div.hover_center
+{
+  content: "";
+  position: absolute;
+  height: 540px;
+  width: 100%;
+  top: -540px;
+  background-color: white;
+  -webkit-transition: top .5s ease-in-out;
+  transition: top .5s ease-in-out;
+}
+div.three_items div.center:hover div.hover_center
+{
+ top: 0px;
+}
+div.three_items div.right
+{
+  margin-left: 1.5%;
+  background-image: url(img/right.PNG);
+}
+div.three_items div.hover_right
+{
+  content: "";
+  position: absolute;
+  height: 540px;
+  width: 100%;
+  right: 100%;
+  background-color: white;
+  transition: right .5s ease-in-out;
+}
+div.three_items div.right:hover div.hover_right
+{
+  right: 0px;
+}
+div#about
+{
+  display: none;
+}
+
+div.partners
+{
+  height: 500px;
+  background-color: white;
+  background-attachment: fixed;
+  text-align: center;
+}
+div.partners span
+{
+  font-size: 3.5em;
+}
+div.partners p
+{
+  font-size: 1.2em;
+}
+div.margin_div
+{
+  margin-top: 200px;
+}
+div.slide
+{
+  height: 200px;
+  width: 1100px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  position: relative;
+}
+div.slide div.first_slide div
+{
+  float: left;
+  width: 25%;
+}
+div.slide div.second_slide div
+{
+  float: left;
+  width: 25%;
+}
+div.slide div.first_slide
+{
+ display: block;
+}
+div.slide div.second_slide
+{
+ display: none;
+}
+div.hover_left, div.hover_center, div.hover_right
+{
+  text-align: center;
+}
+p.big
+{
+  margin-top: 200px;
+  font-size: 1.5em; 
+}
+p.normal
+{
+  margin-top: 20px;
+  font-weight: bold;
+}
+button.learn
+{
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  border: 2px solid #d5ac00;
+  background-color: white;
+  font-weight: bold;
+  color: #d5ac00;
+  border-radius: 3px;
+}
+button.learn:hover
+{
+  background-color: #d5ac00;
+  color: white;
+}
+div.footer
+{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(241, 241, 241);
+  text-align: center;
+}
+p.connect
+{
+  padding-top: 50px;
+  font-size: 1.5em; 
+}
+div.contact
+{
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+div.contact img
+{
+  height: 30px;
+  margin-right: 20px;
+}
+div.contact a
+{
+  text-decoration: none;
+}
+
+div.contact a:hover
+{
+  opacity: 0.7;
+}
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+div#services
+{
+  display: none;
+}
+div.line
+{
+  height: 100px;
+  width: 100%;
+  background-repeat: white;
+}
+div#contactUs
+{
+  display: none;
+}
+div.threeElements
+{
+  text-align: center;
+}
+div.threeElements div.circle
+{
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  margin-left: 125px;
+  margin-top: 20px;
+  background-color: rgb(221, 221, 218);
+}
+div.threeElements div.circle:hover
+{
+  background-color: transparent;
+}
+div.threeElements div.circle:hover img
+{
+  height: 60px;
+}
+div.circle img
+{
+  height: 50px;
+  padding-top: 10px;
+}
+div.threeElements p.bigTextThree
+{
+  color: black;
+  font-size: 1.1em;
+  margin-top: 20px;
+}
+div.threeElements p.smallTextThree
+{
+  color: black;
+  font-size: 1em;
+  padding-top: 20px;
+}
+iframe
+{
+  width: 100%;
+  color: gray;
+}

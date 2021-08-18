@@ -1,0 +1,91 @@
+$font-stack:   sans-serif;
+$primary-color: black;
+$text-color: gray;
+$yellow: #d5ac00;
+$back: white;
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font: 100% $font-stack;
+    color: $primary-color;
+    overflow-x: hidden;
+    background-color: white;
+}
+
+div#top
+{
+    padding-top: 380px;
+    width: 100%;
+    background: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+    
+    div.menu
+    {
+    
+    display: flex;
+    justify-content: center;
+
+        a
+        {
+            text-decoration: none;
+            position: relative;
+            margin-right: 50px;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+            font-weight: lighter;
+            color: $primary-color;
+        
+
+            &:before
+            {
+                content: ""; 
+                display: block; 
+                position: absolute;
+                top: -10px;
+                height: 0;
+                width: 100%;  
+                background-color: $yellow;
+                transition: height .3s ease-in-out;    
+            }
+            &:hover:before
+            {
+                height: 3px;
+            }
+            &:after
+            {
+                content: ""; 
+                display: block;
+                position: absolute;
+                bottom: -10px;
+                height: 0;
+                width: 100%;
+                background-color: $yellow;
+                transition: height .3s ease-in-out;
+            }
+            &:hover:after
+            {
+                height: 3px;
+            }
+        }
+    }
+}
+
+
+div.text
+{
+    height: 600px;
+    background-image: url("img/earth.jpg");
+    background-attachment: fixed;
+    span
+    {
+        color: $back;
+        font-size: 4em;
+    }
+}
